@@ -1,12 +1,12 @@
 {
   "latest_version": "1.0.1",
   "release_date": "13/11/2026",
-  "release_notes": "Sua loi thieu hang hoa (doc dung the THHDVu), PDF in lai tu goi goc cua cong (co MCCQT, bang hang hoa, chu ky), phan trang + loc + sap xep, mac dinh ky xem 30 ngay, lich chon ngay, nut bam dung mau, icon ung dung.",
+  "release_notes": "PDF in lai tu goi goc cua cong (co MCCQT, bang hang hoa, chu ky so); sua loi thieu hang hoa; phan trang + loc + sap xep; thanh phan trang tu xuong dong o cua so hep; ky xem mac dinh 30 ngay; lich chon ngay; nut bam dung mau; icon.",
   "download_urls": [
     "https://github.com/solo-code-com/ketoanupdate/releases/download/v1.0.1/DichVuCongThue.exe",
     "https://solo-code.com/dl/DichVuCongThue-1.0.1.exe"
   ],
-  "sha256": "d3b44d7b3481040fa3dbc729d420da9cb778d762d2443f146545f07c71d6f137",
+  "sha256": "62c543dfd0e2936bb46fe903f11f25d9e8ec71c909c36c8924c7296078e47129",
   "is_critical": false,
   "min_app_version": "1.0.0"
 }
