@@ -1,12 +1,12 @@
 {
   "latest_version": "1.0.1",
   "release_date": "13/11/2026",
-  "release_notes": "Sua DVC 'tai 1 trang khong thay du lieu' (thu muc theo MST cong ty + thong bao ro rang); them Hop thoai Huong dan su dung; PDF theo mau 1C26TKL tu XML; phan trang + loc + sap xep; ky xem 30 ngay.",
+  "release_notes": "Huong dan su dung trong app (menu Tro giup + F1 + nut thanh trang thai); sua DVC 'tai 1 trang khong thay du lieu'; PDF theo mau 1C26TKL tu XML; phan trang + loc + sap xep.",
   "download_urls": [
     "https://github.com/solo-code-com/ketoanupdate/releases/download/v1.0.1/DichVuCongThue.exe",
     "https://solo-code.com/dl/DichVuCongThue-1.0.1.exe"
   ],
-  "sha256": "ee5bae08b5b56b15a5d5122d4b0f6815594d63ec9834124ced2be1c1bf6b771c",
+  "sha256": "b89ae81dd4aaea5c6ca11df5d9dc8d7be912dcd845aef98ad8f7685c055a64a2",
   "is_critical": false,
   "min_app_version": "1.0.0"
 }
