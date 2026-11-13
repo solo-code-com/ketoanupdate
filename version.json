@@ -1,0 +1,12 @@
+{
+  "latest_version": "1.0.0",
+  "release_date": "13/11/2026",
+  "release_notes": "Bản đầu tiên: đăng nhập an toàn, đồng bộ hoá đơn (kể cả máy tính tiền), ZIP/XML/PDF đúng font, khoá sổ, bảng kê HTKK, kiểm tra bên bán, sao lưu có manifest.",
+  "download_urls": [
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v1.0.0/DichVuCongThue.exe",
+    "https://solo-code.com/dl/DichVuCongThue-1.0.0.exe"
+  ],
+  "sha256": "7a20c36fbe8dcdfa97ce420505be2a9d9f654d61f6dac98a5cda8e73de75692c",
+  "is_critical": false,
+  "min_app_version": "1.0.0"
+}
