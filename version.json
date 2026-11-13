@@ -1,12 +1,12 @@
 {
-  "latest_version": "1.0.1",
+  "latest_version": "1.0.2",
   "release_date": "13/11/2026",
-  "release_notes": "Sua co che cap nhat: thay file bang move-retry (khong con phu thuoc PID, da test that tren exe dong goi); khoa so chan o tang DB; nhan pham vi chon dong; huong dan 15 muc.",
+  "release_notes": "Tai duoc hoa don MAY TINH TIEN (nhanh sco-query): URL export-xml dung theo nhanh cua tung hoa don; bo qua hoa don hsgoc rong de do 429. Kem cac sua cua 1.0.1.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v1.0.1/DichVuCongThue.exe",
-    "https://solo-code.com/dl/DichVuCongThue-1.0.1.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v1.0.2/DichVuCongThue.exe",
+    "https://solo-code.com/dl/DichVuCongThue-1.0.2.exe"
   ],
-  "sha256": "595b978dc5c611f356839dfba2678b1979c446f2ce593eb205f933ea0d43ea5b",
+  "sha256": "0aab1be860c3a64ee87b448630e02eadbc1aa9404add755a63b710eac0a9cf8d",
   "is_critical": false,
   "min_app_version": "1.0.0"
 }
