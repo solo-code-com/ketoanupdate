@@ -1,12 +1,11 @@
 {
-  "latest_version": "1.0.2",
-  "release_date": "13/11/2026",
-  "release_notes": "Tai duoc hoa don MAY TINH TIEN (nhanh sco-query): URL export-xml dung theo nhanh cua tung hoa don; bo qua hoa don hsgoc rong de do 429. Kem cac sua cua 1.0.1.",
+  "latest_version": "0.0.3",
+  "release_date": "18/11/2026",
+  "release_notes": "Ban 0.0.3 (ban phat trien): gop Hoa don mua/ban vao 1 muc voi 2 tab con; tu dang nhap lai bang captcha OCR khi dong bo (het han tu dang nhap lai 1 lan); tab Tu dong tai + hen gio nhieu cong ty; kiem tra NNT hang loat (lich su + Excel); tab To khai | GNT (tai ho so tu cong DVC); Goi y to khai 01/GTGT + Phu luc 142 kem so du chuyen ky; nhap XML tu may tinh; do tim file loi; loc theo cot; backup co danh sach + Safety Snapshot; sua 7 loi dung/sai du lieu va loi ngay lap UTC->VN.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v1.0.2/DichVuCongThue.exe",
-    "https://solo-code.com/dl/DichVuCongThue-1.0.2.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.3/DichVuCongThue.exe"
   ],
-  "sha256": "0aab1be860c3a64ee87b448630e02eadbc1aa9404add755a63b710eac0a9cf8d",
+  "sha256": "d9e73e7f10b70484d5ee3f1f3018abb8b6b118983c833de7d0275d50ad9e9477",
   "is_critical": false,
-  "min_app_version": "1.0.0"
+  "min_app_version": "0.0.1"
 }
