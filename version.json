@@ -1,11 +1,11 @@
 {
-  "latest_version": "0.0.4",
+  "latest_version": "0.0.5",
   "release_date": "18/11/2026",
-  "release_notes": "Ban 0.0.4: sua luong dong bo bao 'chua day du' sai ngu canh (tu chay lai 1 lan, neu van thieu thi hoi Chay lai thay vi goi y dang nhap); hop thoai loi dang nhap co lai nut Nhap captcha; them dang nhap/dang xuat cong DVC ngay tab Ho so Cong ty va tab To khai dung lai phien do.",
+  "release_notes": "Ban 0.0.5: sua loi dang nhap lap lai khi dong bo (dung lai dung client da dang nhap: cookie + token, khong dot luot captcha); phien het han thi hoi Nhap captcha/Qua trinh duyet thay vi tu OCR; dang nhap captcha trong tab hoa don cung chia se phien; dang nhap/dang xuat DVC rieng o tab Ho so Cong ty.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.4/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.5/DichVuCongThue.exe"
   ],
-  "sha256": "5ded178bd0bc518081a26118bd213c19fb08c82717bc9a6538ce3ac490614d59",
+  "sha256": "5f4f9bce77538d6f05675cf645b6225cf4bc9af7a9fb213d435b348e467f340e",
   "is_critical": false,
   "min_app_version": "0.0.1"
 }
