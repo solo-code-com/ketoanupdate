@@ -1,11 +1,11 @@
 {
-  "latest_version": "0.0.6",
+  "latest_version": "0.0.7",
   "release_date": "18/11/2026",
-  "release_notes": "Ban 0.0.6: danh sach Quan ly doanh nghiep tach ro tai khoan va trang thai tung cong (HDDT / DVC), co bieu tuong va mau theo trang thai, hien 'dang hoat dong' khi co phien; cot dau danh dau cong ty dang kich hoat bang dau tick va to nen xanh nhat.",
+  "release_notes": "Ban 0.0.7: sua hieu nham 'da dang nhap DVC' khi chi con trang thai cu trong DB (phien RAM da mat) — danh sach cong ty ghi ro 'Da dang nhap truoc, can dang nhap lai'; tab To khai co nut Dang nhap DVC ngay va tu cap nhat trang thai phien khi mo tab.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.6/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.7/DichVuCongThue.exe"
   ],
-  "sha256": "adee627821674898106ede5437075f2ca8e98384012089f4766a7315162b02c7",
+  "sha256": "9311a4fc1bbc4709e7ce7b85ff263f3e7f0840f6a79ca55d6ffbd63966dcb3a8",
   "is_critical": false,
   "min_app_version": "0.0.1"
 }
