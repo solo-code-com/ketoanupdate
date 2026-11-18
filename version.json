@@ -1,11 +1,11 @@
 {
-  "latest_version": "0.0.7",
+  "latest_version": "0.0.8",
   "release_date": "18/11/2026",
-  "release_notes": "Ban 0.0.7: sua hieu nham 'da dang nhap DVC' khi chi con trang thai cu trong DB (phien RAM da mat) — danh sach cong ty ghi ro 'Da dang nhap truoc, can dang nhap lai'; tab To khai co nut Dang nhap DVC ngay va tu cap nhat trang thai phien khi mo tab.",
+  "release_notes": "Ban 0.0.8: sua nhan phien DVC o dau tab To khai bi ket o 'Chua ket noi' du da dang nhap (dong bo ca hai nhan voi phien thuc); canh bao khi phien DVC dang la cua cong ty khac va yeu cau dang nhap lai.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.7/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.8/DichVuCongThue.exe"
   ],
-  "sha256": "9311a4fc1bbc4709e7ce7b85ff263f3e7f0840f6a79ca55d6ffbd63966dcb3a8",
+  "sha256": "df6a4fa273c15bb2a99705faf9c2ca89719cd4112cddeb03c153506ad01dd879",
   "is_critical": false,
   "min_app_version": "0.0.1"
 }
