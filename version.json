@@ -1,11 +1,11 @@
 {
-  "latest_version": "0.0.10",
+  "latest_version": "0.0.11",
   "release_date": "18/11/2026",
-  "release_notes": "Ban 0.0.10: sua nut Tai to khai khong lam gi (worker nhan nham client None); neu chua tick dong nao thi hoi Tai tat ca; moi loi duoc bao ro thay vi im lang; nut Tai van dung duoc khi bang lay tu DB.",
+  "release_notes": "Ban 0.0.11: khi dong bo ma chua co phien, app mo hop thoai CAPTCHA de nguoi dung nhap tay roi tu dong bo — khong con tu chay OCR ngam (truoc day sai captcha 2 lan, mat 2/8 luot). Phien het han giua me cung chi hoi nhap captcha / qua trinh duyet.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.10/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.11/DichVuCongThue.exe"
   ],
-  "sha256": "9704d91452b349b3cbfb367adfc48f8a3e4850ae3fdb3d5658f447143e0d51d7",
+  "sha256": "37f2e9aa4ebd929cca99d9d67321fb14dc8010f1cb1bf922e8a151cdfb326253",
   "is_critical": false,
   "min_app_version": "0.0.1"
 }
