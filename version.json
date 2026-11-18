@@ -1,11 +1,11 @@
 {
-  "latest_version": "0.0.15",
+  "latest_version": "0.0.17",
   "release_date": "18/11/2026",
-  "release_notes": "Ban 0.0.15: sua tooltip hien hop trang khong co chu — dat palette ToolTipBase/ToolTipText (Qt/Windows doi khi bo qua stylesheet) va style tooltip nen dam chu trang vien ro; bo tooltip rong tren cot dau danh sach cong ty.",
+  "release_notes": "Ban 0.0.17: them 3 bo loc chon nhieu dung ma cua cong thue — Trang thai hoa don (1-6), Ket qua kiem tra (0-8), Ky hieu mau so (1-9). Bam o loc de tich nhieu muc, nhan hien 'Tat ca' / ten muc / 'Da chon x/y muc', nut Xong de ap dung; khong tich gi = lay tat ca. Cot 'Trang thai CQT' hien ten thay vi ma (tooltip giu ma goc). Nut 'Xoa loc' xoa ca ba bo loc.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.15/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.17/DichVuCongThue.exe"
   ],
-  "sha256": "3c316526c1176cdb85204540d87fea02d11803898dbd2ad8a108dfea94bef96e",
+  "sha256": "3c8b393c88dbadccd144260a85d36c7a7c891aaf2f3292c4aef75f5cf12c9882",
   "is_critical": false,
   "min_app_version": "0.0.1"
 }
