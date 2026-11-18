@@ -1,11 +1,11 @@
 {
-  "latest_version": "0.0.20",
+  "latest_version": "0.0.21",
   "release_date": "18/11/2026",
-  "release_notes": "Ban 0.0.20: sua loi do ra soat doc lap (Gemini) — truoc day hoi lo trang 2 tro di cung kich hoat co che 'cong tu choi bo loc', lam khoi dong lai ca khuc va tron du lieu co loc voi khong loc. Nay chi lui bo loc khi TRANG DAU cua khuc bi tu choi (400/422/500); loi o trang 2+ duoc coi la loi mang, giu du lieu da tai va bao 'chua day du' dung su that.",
+  "release_notes": "Ban 0.0.21: (1) O 'Ky nhanh' giu dung ten ky vua chon thay vi tu ve 'Ky nhanh...'; bam lai cung ky van ap dung; sua tay ngay thi o ky tu ve mac dinh de khong hien sai. Ap dung cho Hoa don mua ban, Bao cao va Goi y to khai. (2) Bo loc cu 'Moi tinh chat' doi thanh 'Nguon' dung du lieu that: Moi nguon / Dong bo cong thue / Nhap tu email — ba muc 'Thay the / Dieu chinh / Huy' truoc day khong co du lieu nen luon ra 0 dong, nay da bo; trang thai do loc o o 'Trang thai HD' theo ma cua cong thue.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.20/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.21/DichVuCongThue.exe"
   ],
-  "sha256": "e2175786fef4cb536c720c6cad783665f65ede19456eedda3e6bd049e2fda93b",
+  "sha256": "d54533442bc0264ee03cc4105462f2ac84912ec9e60792408f3fc4ad14ff8e4f",
   "is_critical": false,
   "min_app_version": "0.0.1"
 }
