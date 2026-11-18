@@ -1,11 +1,11 @@
 {
-  "latest_version": "0.0.21",
+  "latest_version": "0.0.22",
   "release_date": "18/11/2026",
-  "release_notes": "Ban 0.0.21: (1) O 'Ky nhanh' giu dung ten ky vua chon thay vi tu ve 'Ky nhanh...'; bam lai cung ky van ap dung; sua tay ngay thi o ky tu ve mac dinh de khong hien sai. Ap dung cho Hoa don mua ban, Bao cao va Goi y to khai. (2) Bo loc cu 'Moi tinh chat' doi thanh 'Nguon' dung du lieu that: Moi nguon / Dong bo cong thue / Nhap tu email — ba muc 'Thay the / Dieu chinh / Huy' truoc day khong co du lieu nen luon ra 0 dong, nay da bo; trang thai do loc o o 'Trang thai HD' theo ma cua cong thue.",
+  "release_notes": "Ban 0.0.22: them nut 'Xoa cong ty' o tab Ho so Cong ty. Xoa ho so khoi co so du lieu, KHONG dong den tep XML/PDF tren dia. Neu ho so con hoa don, app canh bao so luong va hoi lan hai truoc khi xoa kem hoa don; xoa xong danh sach tu cap nhat, neu dang la cong ty lam viec thi tu chuyen sang ho so khac. Bo sung 3 test cho thao tac nay.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.21/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.22/DichVuCongThue.exe"
   ],
-  "sha256": "d54533442bc0264ee03cc4105462f2ac84912ec9e60792408f3fc4ad14ff8e4f",
+  "sha256": "25ca9d7b75eb1ea69ac63a0c866d56f1d3420c217eb3940271ad1e0a9f600437",
   "is_critical": false,
   "min_app_version": "0.0.1"
 }
