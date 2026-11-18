@@ -1,11 +1,11 @@
 {
-  "latest_version": "0.0.18",
+  "latest_version": "0.0.19",
   "release_date": "18/11/2026",
-  "release_notes": "Ban 0.0.18: sua 3 loi cua 3 bo loc chon nhieu (theo ra soat doc lap) — chuan hoa gia tri loc nen truyen nham chuoi khong lam sai ket qua; dong popup bang Esc hoac bam ra ngoai khong con doi nhan ma khong loc lai (o tich tro ve lua chon da ap dung); cot 'Trang thai CQT' lay dung nguon du lieu ma bo loc dung nen dong khop loc khong hien ma khac. Them test cho ca 3 truong hop.",
+  "release_notes": "Ban 0.0.19: 3 bo loc (Trang thai HD / Ket qua kiem tra / Mau so HD) duoc GUI LEN CONG THUE khi ban chon dung 1 ma moi o, nen hoa don chua tung tai cung hien ra. Cu phap da do that: dang 'tthai==1'; cong chi nhan MOT gia tri moi dieu kien nen chon nhieu ma thi loc tai may. Neu cong tu choi dieu kien (HTTP 400/422/500) app tu lui ve tai du roi loc tai may va bao ro trong thong bao ket qua — khong bao gio mat hoa don vi bo loc. Sua 2 loi do ra soat doc lap: nhanh may tinh tien khong con xoa dau 'cong tu choi loc', va khong con cau 'da tai DU' khi lan dong bo con thieu du lieu.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.18/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.19/DichVuCongThue.exe"
   ],
-  "sha256": "18ba8d85af6572d322a839d27a2f20f8d57eb91d48e1186ed46521e6c5377f3e",
-  "is_critical": true,
+  "sha256": "4b474a53e186e07b03c2a31a983866ad320fd6262fbfbedc663566eac12a49b3",
+  "is_critical": false,
   "min_app_version": "0.0.1"
 }
