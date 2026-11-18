@@ -1,11 +1,11 @@
 {
-  "latest_version": "0.0.19",
+  "latest_version": "0.0.20",
   "release_date": "18/11/2026",
-  "release_notes": "Ban 0.0.19: 3 bo loc (Trang thai HD / Ket qua kiem tra / Mau so HD) duoc GUI LEN CONG THUE khi ban chon dung 1 ma moi o, nen hoa don chua tung tai cung hien ra. Cu phap da do that: dang 'tthai==1'; cong chi nhan MOT gia tri moi dieu kien nen chon nhieu ma thi loc tai may. Neu cong tu choi dieu kien (HTTP 400/422/500) app tu lui ve tai du roi loc tai may va bao ro trong thong bao ket qua — khong bao gio mat hoa don vi bo loc. Sua 2 loi do ra soat doc lap: nhanh may tinh tien khong con xoa dau 'cong tu choi loc', va khong con cau 'da tai DU' khi lan dong bo con thieu du lieu.",
+  "release_notes": "Ban 0.0.20: sua loi do ra soat doc lap (Gemini) — truoc day hoi lo trang 2 tro di cung kich hoat co che 'cong tu choi bo loc', lam khoi dong lai ca khuc va tron du lieu co loc voi khong loc. Nay chi lui bo loc khi TRANG DAU cua khuc bi tu choi (400/422/500); loi o trang 2+ duoc coi la loi mang, giu du lieu da tai va bao 'chua day du' dung su that.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.19/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.20/DichVuCongThue.exe"
   ],
-  "sha256": "4b474a53e186e07b03c2a31a983866ad320fd6262fbfbedc663566eac12a49b3",
+  "sha256": "e2175786fef4cb536c720c6cad783665f65ede19456eedda3e6bd049e2fda93b",
   "is_critical": false,
   "min_app_version": "0.0.1"
 }
