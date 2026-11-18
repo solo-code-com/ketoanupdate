@@ -1,11 +1,11 @@
 {
-  "latest_version": "0.0.12",
+  "latest_version": "0.0.13",
   "release_date": "18/11/2026",
-  "release_notes": "Ban 0.0.12: xuat hoa don da chon ra Excel/PDF voi 2 che do — moi hoa don mot tep, hoac gop tat ca vao mot tep; them checkbox Chon tat ca (trang dang xem); xuat chay nen co thong bao ket qua va danh sach tep loi.",
+  "release_notes": "Ban 0.0.13: tab Hoa don co thanh 'Chon tat ca (trang nay)' luon hien + checkbox tren tieu de cot Chon; bo chon nhanh; dong bo trang thai tick 3 muc. Double-click hoa don chua co XML khong con mo cua so trang rong ma bao ro 'chua co tep XML'.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.12/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.13/DichVuCongThue.exe"
   ],
-  "sha256": "a10c86847de8ff4dc848d33a806cd379b0d53cb770e50ebfee4a39a1bd6a52c7",
+  "sha256": "a8c1fc50c552110dd34be5afd42694dba9c00b816a9b7f035c977a6e5e50a93b",
   "is_critical": false,
   "min_app_version": "0.0.1"
 }
