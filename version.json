@@ -1,11 +1,11 @@
 {
-  "latest_version": "0.0.9",
+  "latest_version": "0.0.10",
   "release_date": "18/11/2026",
-  "release_notes": "Ban 0.0.9: tab Giai nop tien hoat dong — nhap GNT tu XML/ZIP (doc CHUNGTU, luu DB + cay QLHD-{MST}/GNT/Thang_MM), xuat Excel, mo tep dinh kem. Bo nut tra cuu eTax bi tat.",
+  "release_notes": "Ban 0.0.10: sua nut Tai to khai khong lam gi (worker nhan nham client None); neu chua tick dong nao thi hoi Tai tat ca; moi loi duoc bao ro thay vi im lang; nut Tai van dung duoc khi bang lay tu DB.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.9/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.10/DichVuCongThue.exe"
   ],
-  "sha256": "c23bdd5059068e86e2630a4fd60b17b97214a240fe923fba64efb675488e48a4",
+  "sha256": "9704d91452b349b3cbfb367adfc48f8a3e4850ae3fdb3d5658f447143e0d51d7",
   "is_critical": false,
   "min_app_version": "0.0.1"
 }
