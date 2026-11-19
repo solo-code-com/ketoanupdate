@@ -1,17 +1,17 @@
 {
-  "latest_version": "0.0.24",
+  "latest_version": "0.0.25",
   "release_date": "19/11/2026",
-  "release_notes": "Ban 0.0.24: SUA LOI NGHIEM TRONG — app bi tat ngay sau khi nhap ma captcha khi tai hoa don may tinh tien. Nguyen nhan: hop thoai captcha duoc tao trong luong dong bo (worker) thay vi luong giao dien, lam Qt6Gui.dll bi access violation va tien trinh bi Windows dong lai (khong co thong bao loi). Nay hop thoai captcha luon hien o luong giao dien qua cau noi tin hieu; bam Huy/BQ qua thi app bo phan may tinh tien va giu cac hoa don da tai thay vi tat.",
+  "release_notes": "Ban 0.0.25: don not cac loi an (khong hien thong bao) — (1) bam Dong bo lan hai khi lan dau dang chay khong con lam app tat, hien thong bao 'Mot lan dong bo dang chay'; (2) luong tai tu dong va luong tra cuu to khai co bat exception: truoc day loi lam luong chet im lang nen giao dien dung mai o trang thai 'dang chay'; (3) them bo kiem tra tu dong (AST) chan viec tao hop thoai/widget trong luong nen va bat buoc moi luong nen phai bat exception, de loi nay khong tai dien.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.24/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.25/DichVuCongThue.exe"
   ],
-  "sha256": "a854b9416978765dcb553d0303842b95b08c765f1c02f31753bf3c7d89f51d34",
+  "sha256": "c0d623f3d96eb2e422fb18ad7140f955a64d4a247818687cb7e4cb37850215e3",
   "packages": [
     {
       "type": "zip",
-      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.24/DichVuCongThue-0.0.24.zip",
-      "sha256": "35e638d811b0cc6ad27eb4bcf1a3fdada0bfd59878aa04f72b7d27ebbc7bfaca",
-      "size": 269539940
+      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.25/DichVuCongThue-0.0.25.zip",
+      "sha256": "2cf76b881a2ed5986c8a354f861f529ca5c87183ef2b3c61ee7c9f5e6ea1b2c4",
+      "size": 269539961
     }
   ],
   "is_critical": true,
