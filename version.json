@@ -1,11 +1,19 @@
 {
-  "latest_version": "0.0.22",
-  "release_date": "18/11/2026",
-  "release_notes": "Ban 0.0.22: them nut 'Xoa cong ty' o tab Ho so Cong ty. Xoa ho so khoi co so du lieu, KHONG dong den tep XML/PDF tren dia. Neu ho so con hoa don, app canh bao so luong va hoi lan hai truoc khi xoa kem hoa don; xoa xong danh sach tu cap nhat, neu dang la cong ty lam viec thi tu chuyen sang ho so khac. Bo sung 3 test cho thao tac nay.",
+  "latest_version": "0.0.23",
+  "release_date": "19/11/2026",
+  "release_notes": "Ban 0.0.23: doi cach dong goi sang dang THU MUC (exe + _internal) nen moi lan mo app khong con tu giai nen ~257 MB vao %TEMP% — khoi dong nhanh hon va bot bi Defender/antivirus bao nham. Goi phat hanh la file .zip; cap nhat trong app tu tai goi, chi thay exe + _internal, GIU NGUYEN quan_ly_hoa_don.db, thu muc QUAN_LY_HOA_DON, logs va update_config.json. Ban .exe don van duoc dinh kem de nguoi dung dang chay 0.0.22 cap nhat duoc. Thay opencv-python bang opencv-python-headless (−8 MB). Khong con ky bang chung chi self-signed (chu ky do Windows khong tin, chi lam canh bao trong te hon).",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.22/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.23/DichVuCongThue.exe"
   ],
-  "sha256": "25ca9d7b75eb1ea69ac63a0c866d56f1d3420c217eb3940271ad1e0a9f600437",
+  "sha256": "42da471753411d8856da351e77aa6a0ba03e42ee68c41734c18f4cff21abc9d7",
+  "packages": [
+    {
+      "type": "zip",
+      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.23/DichVuCongThue-0.0.23.zip",
+      "sha256": "1373a811801485522cdd4a6f42008bc4bfdbaf564f2229c4217aef35573eb719",
+      "size": 269537061
+    }
+  ],
   "is_critical": false,
   "min_app_version": "0.0.1"
 }
