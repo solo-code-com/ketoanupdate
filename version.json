@@ -1,17 +1,17 @@
 {
-  "latest_version": "0.0.31",
+  "latest_version": "0.0.32",
   "release_date": "19/11/2026",
-  "release_notes": "Ban 0.0.31: sua goc loi chong trung hoa don — khoa duy nhat nay gom ca nguoi mua, nen hai ho so cong ty cung mua cua mot nguoi ban voi cung ky hieu/so hoa don khong con ghi de len nhau. Database tu nang cap khi mo app (co sao luu .bak-schema2 kem ca -wal/-shm truoc khi doi cau truc; hong giua chung thi rollback). Sua them 4 loi trong chinh buoc nang cap (PRAGMA foreign_keys bi bo qua trong transaction, thieu rollback, sao luu sau khi da ghi, tra id theo thieu cot), va sua khoa gop trung khi dong bo: nhan ten truong thay the cua API, dem 0 so hoa don, tinh ca nguoi mua — truoc day co the gop nham nhieu hoa don thanh mot.",
+  "release_notes": "Ban 0.0.32: sua loi in PDF va nhap XML — (1) truoc day neu mot dong chu khong ve duoc, app van bao 'da in xong' va ban PDF thieu noi dung; nay bao that bai va ghi log; (2) bo co che du phong dung font Helvetica (font nay khong co dau tieng Viet nen chu bi sai/thanh o vuong); (3) dong file PDF dung cach khi gap loi, tranh khoa tep tren Windows; (4) gop nhieu PDF ma thieu tep thi co canh bao trong log; (5) nhap hoa don BAN RA tu XML thieu MST nguoi mua khong con tu gan nguoi mua la chinh cong ty minh. Them test dung PDF that de kiem tra chu tieng Viet.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.31/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.32/DichVuCongThue.exe"
   ],
-  "sha256": "d288b83669a2f53f027a723f7c82fb7cb4b24e36188986e017369cbfa9417f62",
+  "sha256": "6c0484e143168b331f5ae2c5e91252b72547f34ef6616963a00e233b4bda4ae7",
   "packages": [
     {
       "type": "zip",
-      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.31/DichVuCongThue-0.0.31.zip",
-      "sha256": "2f1d2bd0409f8c5934fe3fee028ef7f80266c50d1621ed14827caad4cf66b547",
-      "size": 269550873
+      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.32/DichVuCongThue-0.0.32.zip",
+      "sha256": "31c38fe8a8c1cdf8763b1003aedfdc29b1577e778aea4cba8999e62cc3540e57",
+      "size": 269552260
     }
   ],
   "is_critical": true,
