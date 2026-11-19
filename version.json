@@ -1,17 +1,17 @@
 {
-  "latest_version": "0.0.29",
+  "latest_version": "0.0.30",
   "release_date": "19/11/2026",
-  "release_notes": "Ban 0.0.29: sua loi nut 'Do tim file loi' bi AttributeError (doc nham self.dt_den thay vi self.dt_to) — bam vao la app bao loi va khong do duoc gi. Them hai lop kiem tra tu dong: (1) quet toan bo ma nguon tim thuoc tinh self.X doc ma chua gan (dung loai loi vua roi), (2) dung that toan bo 16 man hinh + goi cac nut loc/ky nhanh o che do khong hien thi de bat loi chi no khi bam. Ghi log thay vi nuot im lang khi khong ma hoa duoc mat khau da luu va khi khong ghi duoc dau 'da chay' cua hen gio.",
+  "release_notes": "Ban 0.0.30: sua 5 loi du lieu/updater do ra soat doc lap (Gemini) phat hien — (1) hai ho so cong ty cung mua cua mot nguoi ban voi cung ky hieu/so hoa don khong con ghi de len nhau (truoc day hoa don cua cong ty A bi bien thanh cua cong ty B); (2) kiem tra khoa ky khong con bi bo qua khi thieu id cong ty (tu tim theo MST); (3) nguong lech tien khi xet 'chi sua mo ta' giam tu 0,5 dong xuong 0,005 dong; (4) updater: manifest co goi zip nhung thieu sha cua goi thi lui ve tai .exe thay vi bao 'khong khop SHA256' mai mai; file hong o mot mirror khong con chan viec thu mirror khac; (5) chan giai nen zip ghi ra ngoai thu muc cap nhat bang duong dan thuc (realpath).",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.29/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.30/DichVuCongThue.exe"
   ],
-  "sha256": "75a1247c1d82a1804de38e54a6605b631488d21a3b6ce47a3049b4e0adfee561",
+  "sha256": "b59b2abe13529f0137601927a0f2dde967fe85a2ca0320521e22e1be8802dec9",
   "packages": [
     {
       "type": "zip",
-      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.29/DichVuCongThue-0.0.29.zip",
-      "sha256": "62d41d9e72f0766db01df561b4df89a212cdebde651e741f61af62f21a05192c",
-      "size": 269547274
+      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.30/DichVuCongThue-0.0.30.zip",
+      "sha256": "e3b38742109b864ddf5f5d629a809c0da5b3fa9d5268aef4f19ed886bc721dce",
+      "size": 269548446
     }
   ],
   "is_critical": true,
