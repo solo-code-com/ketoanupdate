@@ -1,17 +1,17 @@
 {
-  "latest_version": "0.0.26",
+  "latest_version": "0.0.27",
   "release_date": "19/11/2026",
-  "release_notes": "Ban 0.0.26: chong mat du lieu va app tat bat ngo — (1) khi dong app luc dang dong bo / xuat Excel / tai tep / dang nhap, moi luong nen duoc dung va cho truoc khi cua so dong, khong con loi 'QThread: Destroyed while thread is still running'; (2) dong app khi dang cho nhap captcha khong con treo 300 giay; (3) cap nhat qua zip: hong o buoc nao cung khoi phuc CA exe lan thu muc _internal, khong de ban cai nua moi nua cu khong mo duoc; (4) loi khi cai ban da tai khong con bi nuot im lang — ghi log va giu trang thai cho lan sau.",
+  "release_notes": "Ban 0.0.27: het dong cung giao dien khi dang nhap — bon luong dang nhap (HDDT o Ho so, DVC o Ho so, dang nhap truoc khi dong bo, DVC o tab To khai) va nut 'Kiem tra ket noi' email nay chay o luong nen, hop captcha van hien binh thuong. Nhap hoa don tu XML/ZIP cung chay o luong nen nen nhap hang tram tep khong con treo app. Sua them: dong app khi dang cho captcha khong treo; captcha luon tra ve dung luong dang nhap (khong bi lan sang lan bam sau); bo thuoc tinh tam de ghi ket qua DVC.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.26/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.27/DichVuCongThue.exe"
   ],
-  "sha256": "c9700a6c97fcaf18c36ada28fec020a9841b298b871e0e9b4c7200d662160a40",
+  "sha256": "54f1934c66de780bd586eec59c2c420f78cf1b48bee596f6bc51f81bc0c217da",
   "packages": [
     {
       "type": "zip",
-      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.26/DichVuCongThue-0.0.26.zip",
-      "sha256": "e6b12d5c7cdd119979fa052ec1e290ebec77e2dd88a1c731ff132995a466cd60",
-      "size": 269541954
+      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.27/DichVuCongThue-0.0.27.zip",
+      "sha256": "4b54445c11c522bbb7e0cbb2e5aed1e83e0636c55443ded5e22fcf798f7a560d",
+      "size": 269545664
     }
   ],
   "is_critical": true,
