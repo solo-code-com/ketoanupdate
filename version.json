@@ -1,17 +1,17 @@
 {
-  "latest_version": "0.0.30",
+  "latest_version": "0.0.31",
   "release_date": "19/11/2026",
-  "release_notes": "Ban 0.0.30: sua 5 loi du lieu/updater do ra soat doc lap (Gemini) phat hien — (1) hai ho so cong ty cung mua cua mot nguoi ban voi cung ky hieu/so hoa don khong con ghi de len nhau (truoc day hoa don cua cong ty A bi bien thanh cua cong ty B); (2) kiem tra khoa ky khong con bi bo qua khi thieu id cong ty (tu tim theo MST); (3) nguong lech tien khi xet 'chi sua mo ta' giam tu 0,5 dong xuong 0,005 dong; (4) updater: manifest co goi zip nhung thieu sha cua goi thi lui ve tai .exe thay vi bao 'khong khop SHA256' mai mai; file hong o mot mirror khong con chan viec thu mirror khac; (5) chan giai nen zip ghi ra ngoai thu muc cap nhat bang duong dan thuc (realpath).",
+  "release_notes": "Ban 0.0.31: sua goc loi chong trung hoa don — khoa duy nhat nay gom ca nguoi mua, nen hai ho so cong ty cung mua cua mot nguoi ban voi cung ky hieu/so hoa don khong con ghi de len nhau. Database tu nang cap khi mo app (co sao luu .bak-schema2 kem ca -wal/-shm truoc khi doi cau truc; hong giua chung thi rollback). Sua them 4 loi trong chinh buoc nang cap (PRAGMA foreign_keys bi bo qua trong transaction, thieu rollback, sao luu sau khi da ghi, tra id theo thieu cot), va sua khoa gop trung khi dong bo: nhan ten truong thay the cua API, dem 0 so hoa don, tinh ca nguoi mua — truoc day co the gop nham nhieu hoa don thanh mot.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.30/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.31/DichVuCongThue.exe"
   ],
-  "sha256": "b59b2abe13529f0137601927a0f2dde967fe85a2ca0320521e22e1be8802dec9",
+  "sha256": "d288b83669a2f53f027a723f7c82fb7cb4b24e36188986e017369cbfa9417f62",
   "packages": [
     {
       "type": "zip",
-      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.30/DichVuCongThue-0.0.30.zip",
-      "sha256": "e3b38742109b864ddf5f5d629a809c0da5b3fa9d5268aef4f19ed886bc721dce",
-      "size": 269548446
+      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.31/DichVuCongThue-0.0.31.zip",
+      "sha256": "2f1d2bd0409f8c5934fe3fee028ef7f80266c50d1621ed14827caad4cf66b547",
+      "size": 269550873
     }
   ],
   "is_critical": true,
