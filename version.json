@@ -1,17 +1,17 @@
 {
-  "latest_version": "0.0.32",
+  "latest_version": "0.0.33",
   "release_date": "19/11/2026",
-  "release_notes": "Ban 0.0.32: sua loi in PDF va nhap XML — (1) truoc day neu mot dong chu khong ve duoc, app van bao 'da in xong' va ban PDF thieu noi dung; nay bao that bai va ghi log; (2) bo co che du phong dung font Helvetica (font nay khong co dau tieng Viet nen chu bi sai/thanh o vuong); (3) dong file PDF dung cach khi gap loi, tranh khoa tep tren Windows; (4) gop nhieu PDF ma thieu tep thi co canh bao trong log; (5) nhap hoa don BAN RA tu XML thieu MST nguoi mua khong con tu gan nguoi mua la chinh cong ty minh. Them test dung PDF that de kiem tra chu tieng Viet.",
+  "release_notes": "Ban 0.0.33: sua loi 'dong bo mai van bao chua day du' o nhanh MAY TINH TIEN — cong thu tra HTTP 401 khi ma captcha sai nhung app hieu la phien het han nen bo ca khuc, moi lan chay roi mat vai khuc (so hoa don nhay 58/55/47/22). Nay 401 o nhanh MTT duoc coi la ma sai: hien lai hop captcha cho nguoi dung nhap, khong bo khuc. Ngoai ra: neu phien het han GIUA luot dong bo, app tu hoi dang nhap lai (nhap captcha duoc) roi tai tiep mot lan. Nhanh MTT cung khong con dot qua 2 ma cho mot trang khi bi 429. Them khoa chung de dong bo tay va mep hen gio khong chay chong nhau.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.32/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.33/DichVuCongThue.exe"
   ],
-  "sha256": "6c0484e143168b331f5ae2c5e91252b72547f34ef6616963a00e233b4bda4ae7",
+  "sha256": "c8feaf32961f9f4b37573886af76da26e060de6223a2ecbbdda52c55ef57ab78",
   "packages": [
     {
       "type": "zip",
-      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.32/DichVuCongThue-0.0.32.zip",
-      "sha256": "31c38fe8a8c1cdf8763b1003aedfdc29b1577e778aea4cba8999e62cc3540e57",
-      "size": 269552260
+      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.33/DichVuCongThue-0.0.33.zip",
+      "sha256": "aebc7c70c2d16d1297e57d36841eba08afc871843bc3b10648accc819fdb539a",
+      "size": 269556814
     }
   ],
   "is_critical": true,
