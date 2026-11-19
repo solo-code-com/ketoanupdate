@@ -1,17 +1,17 @@
 {
-  "latest_version": "0.0.28",
+  "latest_version": "0.0.29",
   "release_date": "19/11/2026",
-  "release_notes": "Ban 0.0.28: SUA LOI DANG NHAP — nhap captcha dung ma van bao 'Ma captcha khong dung' va mat 2 luot. Nguyen nhan: khi dang nhap, app chi bat che do nhap captcha tay neu tham so duoc truyen truc tiep; ban 0.0.27 cau hinh provider qua thuoc tinh nen app van chay OCR tu dong, khong hien hop thoai va gui ma doan sai len cong. Nay da bat che do nhap tay o moi duong dang nhap (Ho so cong ty, dang nhap truoc khi dong bo, va khi dong bo tu dang nhap lai). Neu tai khoan da bi tru 2 luot: dung 'Dang nhap qua trinh duyet' de khong ton them luot tu dong.",
+  "release_notes": "Ban 0.0.29: sua loi nut 'Do tim file loi' bi AttributeError (doc nham self.dt_den thay vi self.dt_to) — bam vao la app bao loi va khong do duoc gi. Them hai lop kiem tra tu dong: (1) quet toan bo ma nguon tim thuoc tinh self.X doc ma chua gan (dung loai loi vua roi), (2) dung that toan bo 16 man hinh + goi cac nut loc/ky nhanh o che do khong hien thi de bat loi chi no khi bam. Ghi log thay vi nuot im lang khi khong ma hoa duoc mat khau da luu va khi khong ghi duoc dau 'da chay' cua hen gio.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.28/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.29/DichVuCongThue.exe"
   ],
-  "sha256": "99eafde2c04061d78f114a9927c23479e61fb6a3dd157e203daa8c8c00545dda",
+  "sha256": "75a1247c1d82a1804de38e54a6605b631488d21a3b6ce47a3049b4e0adfee561",
   "packages": [
     {
       "type": "zip",
-      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.28/DichVuCongThue-0.0.28.zip",
-      "sha256": "46610da74f085e70212360659f729e5b1e6c7d63b5ee6444597a8682daf2b085",
-      "size": 269547398
+      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.29/DichVuCongThue-0.0.29.zip",
+      "sha256": "62d41d9e72f0766db01df561b4df89a212cdebde651e741f61af62f21a05192c",
+      "size": 269547274
     }
   ],
   "is_critical": true,
