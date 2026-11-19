@@ -1,19 +1,19 @@
 {
-  "latest_version": "0.0.34",
+  "latest_version": "0.0.35",
   "release_date": "19/11/2026",
-  "release_notes": "Ban 0.0.34: (1) To khai thue — ket qua tra cuu duoc LUU NGAY vao co so du lieu nen mo lai app khong phai tra cuu lai tu dau; cot 'Ma ho so' hien dung (truoc day doc sai ten truong cua cong); bam Tai lan hai se bo qua to khai da co tep tren may. (2) Tooltip — khong con hop tooltip vo nghia: bo tooltip lap lai dung chu dang hien tren bang va tren thanh menu doc, giu lai tooltip co thong tin that (ly do cong tu choi, ma CQT, canh bao). Them test tu dong cho ca hai viec.",
+  "release_notes": "Ban 0.0.35: viet lai HOAN TOAN tai lieu Huong dan su dung. Man hinh Huong dan nay hien thi dang HTML co dinh dang: muc luc bam duoc, bang so sanh, khung ghi chu mau (meo / luu y / canh bao), 14 muc day du tu 'Bat dau trong 5 buoc' den 'Du lieu duoc luu o dau'. Noi dung viet lai theo loi don gian, tung buoc danh so, giai thich ca khai niem (HDDT/DVC, mua vao/ban ra, may tinh tien, khoa so), huong dan chi tiet tung nut o tung tab, bang xu ly su co (captcha sai, phien het han, chua day du, thieu tep, khoa ky, cap nhat khong ghi duoc) va cau hoi thuong gap. Hop thoai tro giup dung cung tai lieu. Them tim kiem trong huong dan va nut Ve dau / Tai lai.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.34/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.35/DichVuCongThue.exe"
   ],
-  "sha256": "792f05f9cfd6861791be80e4b38603a91c62b5d560c7ed42fa2e0e239bb45f73",
+  "sha256": "0bdee85741800810a54dfa293db5fa7675195d0a401dc1178612eeb5533aeb72",
   "packages": [
     {
       "type": "zip",
-      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.34/DichVuCongThue-0.0.34.zip",
-      "sha256": "0c16424e9c278e948546e92ea2e978d1757a58efda6c8e46f2ec0716fa3c0bd7",
-      "size": 269557845
+      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.35/DichVuCongThue-0.0.35.zip",
+      "sha256": "33acf4ed6f718228317c7e46bda81289ce58458a58a77ea356bfcd91c431f8c0",
+      "size": 269568270
     }
   ],
-  "is_critical": true,
+  "is_critical": false,
   "min_app_version": "0.0.1"
 }
