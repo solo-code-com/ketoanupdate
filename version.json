@@ -1,17 +1,17 @@
 {
-  "latest_version": "0.0.25",
+  "latest_version": "0.0.26",
   "release_date": "19/11/2026",
-  "release_notes": "Ban 0.0.25: don not cac loi an (khong hien thong bao) — (1) bam Dong bo lan hai khi lan dau dang chay khong con lam app tat, hien thong bao 'Mot lan dong bo dang chay'; (2) luong tai tu dong va luong tra cuu to khai co bat exception: truoc day loi lam luong chet im lang nen giao dien dung mai o trang thai 'dang chay'; (3) them bo kiem tra tu dong (AST) chan viec tao hop thoai/widget trong luong nen va bat buoc moi luong nen phai bat exception, de loi nay khong tai dien.",
+  "release_notes": "Ban 0.0.26: chong mat du lieu va app tat bat ngo — (1) khi dong app luc dang dong bo / xuat Excel / tai tep / dang nhap, moi luong nen duoc dung va cho truoc khi cua so dong, khong con loi 'QThread: Destroyed while thread is still running'; (2) dong app khi dang cho nhap captcha khong con treo 300 giay; (3) cap nhat qua zip: hong o buoc nao cung khoi phuc CA exe lan thu muc _internal, khong de ban cai nua moi nua cu khong mo duoc; (4) loi khi cai ban da tai khong con bi nuot im lang — ghi log va giu trang thai cho lan sau.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.25/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.26/DichVuCongThue.exe"
   ],
-  "sha256": "c0d623f3d96eb2e422fb18ad7140f955a64d4a247818687cb7e4cb37850215e3",
+  "sha256": "c9700a6c97fcaf18c36ada28fec020a9841b298b871e0e9b4c7200d662160a40",
   "packages": [
     {
       "type": "zip",
-      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.25/DichVuCongThue-0.0.25.zip",
-      "sha256": "2cf76b881a2ed5986c8a354f861f529ca5c87183ef2b3c61ee7c9f5e6ea1b2c4",
-      "size": 269539961
+      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.26/DichVuCongThue-0.0.26.zip",
+      "sha256": "e6b12d5c7cdd119979fa052ec1e290ebec77e2dd88a1c731ff132995a466cd60",
+      "size": 269541954
     }
   ],
   "is_critical": true,
