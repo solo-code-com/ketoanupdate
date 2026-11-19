@@ -1,19 +1,19 @@
 {
-  "latest_version": "0.0.23",
+  "latest_version": "0.0.24",
   "release_date": "19/11/2026",
-  "release_notes": "Ban 0.0.23: doi cach dong goi sang dang THU MUC (exe + _internal) nen moi lan mo app khong con tu giai nen ~257 MB vao %TEMP% — khoi dong nhanh hon va bot bi Defender/antivirus bao nham. Goi phat hanh la file .zip; cap nhat trong app tu tai goi, chi thay exe + _internal, GIU NGUYEN quan_ly_hoa_don.db, thu muc QUAN_LY_HOA_DON, logs va update_config.json. Ban .exe don van duoc dinh kem de nguoi dung dang chay 0.0.22 cap nhat duoc. Thay opencv-python bang opencv-python-headless (−8 MB). Khong con ky bang chung chi self-signed (chu ky do Windows khong tin, chi lam canh bao trong te hon).",
+  "release_notes": "Ban 0.0.24: SUA LOI NGHIEM TRONG — app bi tat ngay sau khi nhap ma captcha khi tai hoa don may tinh tien. Nguyen nhan: hop thoai captcha duoc tao trong luong dong bo (worker) thay vi luong giao dien, lam Qt6Gui.dll bi access violation va tien trinh bi Windows dong lai (khong co thong bao loi). Nay hop thoai captcha luon hien o luong giao dien qua cau noi tin hieu; bam Huy/BQ qua thi app bo phan may tinh tien va giu cac hoa don da tai thay vi tat.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.23/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.24/DichVuCongThue.exe"
   ],
-  "sha256": "42da471753411d8856da351e77aa6a0ba03e42ee68c41734c18f4cff21abc9d7",
+  "sha256": "a854b9416978765dcb553d0303842b95b08c765f1c02f31753bf3c7d89f51d34",
   "packages": [
     {
       "type": "zip",
-      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.23/DichVuCongThue-0.0.23.zip",
-      "sha256": "1373a811801485522cdd4a6f42008bc4bfdbaf564f2229c4217aef35573eb719",
-      "size": 269537061
+      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.24/DichVuCongThue-0.0.24.zip",
+      "sha256": "35e638d811b0cc6ad27eb4bcf1a3fdada0bfd59878aa04f72b7d27ebbc7bfaca",
+      "size": 269539940
     }
   ],
-  "is_critical": false,
+  "is_critical": true,
   "min_app_version": "0.0.1"
 }
