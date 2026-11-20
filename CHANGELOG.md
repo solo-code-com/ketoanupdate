@@ -6,13 +6,25 @@ ghi lại ở đây** để còn đối chiếu khi cần.
 
 | Bản | Ngày (UTC) | File cài đặt | Ghi chú |
 |---|---|---|---|
+| 0.0.36 | 2026-11-20 | còn | Chống zip-slip (backup + PDF từ ZIP), validate MST, ngày sai báo lỗi, chỉ tin khoá Ed25519 nhúng trong code |
 | 0.0.35 | 2026-11-19 | còn | Hướng dẫn sử dụng viết lại đầy đủ, trình bày HTML |
 | 0.0.34 | 2026-11-19 | còn | Lưu kết quả tra cứu tờ khai vào DB; bỏ tooltip vô nghĩa |
-| 0.0.33 | 2026-11-19 | còn | 401 ở nhánh máy tính tiền = mã captcha sai; tự đăng nhập lại giữa lượt |
+| 0.0.33 | 2026-11-19 | đã xoá (chỉ giữ log) | 401 ở nhánh máy tính tiền = mã captcha sai; tự đăng nhập lại giữa lượt |
 | 0.0.32 | 2026-11-19 | đã xoá (chỉ giữ log) | PDF không báo thành công khi thiếu chữ; bỏ font Helvetica |
 | 0.0.31 | 2026-11-19 | đã xoá (chỉ giữ log) | Schema v2: khoá chống trùng thêm người mua, tự nâng cấp có sao lưu |
 
 ## Chi tiết
+
+### 0.0.36 — 20/11/2026
+- Chặn zip-slip khi phục hồi sao lưu và khi dựng PDF từ gói ZIP của nhà cung cấp:
+  từ chối entry chứa `..`, đường dẫn tuyệt đối, tên ổ đĩa Windows, và mọi đường dẫn
+  ghi ra ngoài thư mục đích (`safe_paths.py`, dùng realpath + commonpath).
+- Mã số thuế được kiểm tra (10/13 chữ số, hậu tố `-ql`) trước khi dùng làm tên thư mục.
+- Ngày lập không hợp lệ báo lỗi rõ ràng thay vì lặng lẽ lưu vào tháng hiện tại.
+- Kiểm tra "tệp nằm trong thư mục" thay `startswith` bằng realpath + commonpath.
+- Updater chỉ dùng khoá công khai Ed25519 nhúng trong code để xác thực manifest;
+  không đọc khoá từ `update_config.json`. Chưa nhúng khoá thì chỉ kiểm SHA-256 và
+  ghi cảnh báo (xem `EMBEDDED_PUBLIC_KEY` trong `updater.py`).
 
 ### 0.0.35 — 19/11/2026
 Viết lại toàn bộ tài liệu Hướng dẫn sử dụng:
