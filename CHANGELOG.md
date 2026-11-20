@@ -6,14 +6,23 @@ ghi lại ở đây** để còn đối chiếu khi cần.
 
 | Bản | Ngày (UTC) | File cài đặt | Ghi chú |
 |---|---|---|---|
+| 0.0.37 | 2026-11-20 | còn | Quy hoạch mã nguồn (tests/ scripts/ docs/), dọn 528 MB bản cũ |
 | 0.0.36 | 2026-11-20 | còn | Chống zip-slip (backup + PDF từ ZIP), validate MST, ngày sai báo lỗi, chỉ tin khoá Ed25519 nhúng trong code |
 | 0.0.35 | 2026-11-19 | còn | Hướng dẫn sử dụng viết lại đầy đủ, trình bày HTML |
-| 0.0.34 | 2026-11-19 | còn | Lưu kết quả tra cứu tờ khai vào DB; bỏ tooltip vô nghĩa |
+| 0.0.34 | 2026-11-19 | đã xoá (chỉ giữ log) | Lưu kết quả tra cứu tờ khai vào DB; bỏ tooltip vô nghĩa |
 | 0.0.33 | 2026-11-19 | đã xoá (chỉ giữ log) | 401 ở nhánh máy tính tiền = mã captcha sai; tự đăng nhập lại giữa lượt |
 | 0.0.32 | 2026-11-19 | đã xoá (chỉ giữ log) | PDF không báo thành công khi thiếu chữ; bỏ font Helvetica |
 | 0.0.31 | 2026-11-19 | đã xoá (chỉ giữ log) | Schema v2: khoá chống trùng thêm người mua, tự nâng cấp có sao lưu |
 
 ## Chi tiết
+
+### 0.0.37 — 20/11/2026
+- Quy hoạch lại mã nguồn để tiếp tục phát triển: `tests/` (52 file test),
+  `scripts/` (publish_release, prune_releases, check_account, backfill_items),
+  `docs/` (SPEC, hướng dẫn sử dụng, báo cáo); log build và bản phát hành cũ
+  (~528 MB) được xoá khỏi thư mục dự án.
+- Không thay đổi chức năng người dùng; hướng dẫn sử dụng vẫn được đóng gói kèm.
+- Bao gồm các sửa lỗi bảo mật của 0.0.36 (zip-slip, validate MST, ngày lập, chữ ký manifest).
 
 ### 0.0.36 — 20/11/2026
 - Chặn zip-slip khi phục hồi sao lưu và khi dựng PDF từ gói ZIP của nhà cung cấp:
