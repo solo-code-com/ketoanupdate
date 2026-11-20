@@ -1,19 +1,19 @@
 {
-  "latest_version": "0.0.35",
-  "release_date": "19/11/2026",
-  "release_notes": "Ban 0.0.35: viet lai HOAN TOAN tai lieu Huong dan su dung. Man hinh Huong dan nay hien thi dang HTML co dinh dang: muc luc bam duoc, bang so sanh, khung ghi chu mau (meo / luu y / canh bao), 14 muc day du tu 'Bat dau trong 5 buoc' den 'Du lieu duoc luu o dau'. Noi dung viet lai theo loi don gian, tung buoc danh so, giai thich ca khai niem (HDDT/DVC, mua vao/ban ra, may tinh tien, khoa so), huong dan chi tiet tung nut o tung tab, bang xu ly su co (captcha sai, phien het han, chua day du, thieu tep, khoa ky, cap nhat khong ghi duoc) va cau hoi thuong gap. Hop thoai tro giup dung cung tai lieu. Them tim kiem trong huong dan va nut Ve dau / Tai lai.",
+  "latest_version": "0.0.36",
+  "release_date": "20/11/2026",
+  "release_notes": "Ban 0.0.36: tang cuong bao mat va do tin cay — (1) chan zip-slip khi phuc hoi sao luu va khi dung PDF tu goi ZIP cua nha cung cap: tu choi entry chua '..', duong dan tuyet doi, ten o dia Windows va moi duong dan ghi ra ngoai thu muc dich; (2) ma so thue duoc kiem tra chat (10/13 chu so, hau to -ql) truoc khi dung lam ten thu muc, MST la bao loi ro thay vi tao duong dan sai; (3) ngay lap khong hop le bao loi thay vi lang le luu vao thang hien tai; (4) kiem tra 'tep nam trong thu muc' dung realpath + commonpath thay cho startswith; (5) updater chi dung khoa cong khai Ed25519 NHUNG TRONG CODE de xac thuc manifest (khong doc khoa tu update_config.json nua); khi chua nhung khoa, app chi kiem SHA-256 va ghi canh bao ro rang.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.35/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.36/DichVuCongThue.exe"
   ],
-  "sha256": "0bdee85741800810a54dfa293db5fa7675195d0a401dc1178612eeb5533aeb72",
+  "sha256": "11452d9c4bb8697ab3e7e4d2ce55e37a7d2b72f8cf598d20c9aa743855f57911",
   "packages": [
     {
       "type": "zip",
-      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.35/DichVuCongThue-0.0.35.zip",
-      "sha256": "33acf4ed6f718228317c7e46bda81289ce58458a58a77ea356bfcd91c431f8c0",
-      "size": 269568270
+      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.36/DichVuCongThue-0.0.36.zip",
+      "sha256": "c753c63e64a8a3843fb7f59fda9b465da97e199f763b109f7c58072cfd5aeb5c",
+      "size": 269570623
     }
   ],
-  "is_critical": false,
+  "is_critical": true,
   "min_app_version": "0.0.1"
 }
