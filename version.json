@@ -1,17 +1,17 @@
 {
-  "latest_version": "0.0.37",
+  "latest_version": "0.0.38",
   "release_date": "20/11/2026",
-  "release_notes": "Ban 0.0.37: quy hoach lai ma nguon de tiep tuc phat trien — test chuyen vao tests/, cong cu phat hanh vao scripts/, tai lieu vao docs/; xoa 528 MB ban phat hanh cu va toan bo log build khoi thu muc du an. Khong thay doi chuc nang nguoi dung; huong dan su dung van duoc dong goi kem. Ban nay cung bao gom cac sua loi bao mat cua 0.0.36 (chong zip-slip khi phuc hoi sao luu va dung PDF tu goi ZIP, kiem tra ma so thue, ngay lap khong hop le bao loi ro rang, kiem tra duong dan bang realpath).",
+  "release_notes": "Ban 0.0.38: hoan tat quy hoach ma nguon theo huong phat trien lau dai — 36 module duoc chia vao 5 goi: core/ (du lieu, luu tru, bao mat, tien ich), auth/ (phien va dang nhap cong), gdt/ (cong hoa don dien tu), dvc/ (cong dich vu cong, to khai), services/ (sao luu, PDF, nhap tep, bao cao, email). Diem vao app.py, build.py va updater.py giu o goc. Khong thay doi chuc nang; da chay lai toan bo 312 test, kiem ma, quet bao mat nghiem ngat va khoi dong thu ban dong goi 10 giay de xac nhan dong goi dung.",
   "download_urls": [
-    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.37/DichVuCongThue.exe"
+    "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.38/DichVuCongThue.exe"
   ],
-  "sha256": "735f68de7cba382027ea2f9ffd53ac107f45a56ddc583d3ca281784cbf2b8426",
+  "sha256": "cfe534c79596535a87ddf36c93ea9957c0bcdd976968525c636efc9b057870f1",
   "packages": [
     {
       "type": "zip",
-      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.37/DichVuCongThue-0.0.37.zip",
-      "sha256": "0f643778610c03d8f754a4da6f239dae89325b57ae6e31a914748d488abe6414",
-      "size": 269572058
+      "url": "https://github.com/solo-code-com/ketoanupdate/releases/download/v0.0.38/DichVuCongThue-0.0.38.zip",
+      "sha256": "8ec35f39ec93413016f11aec8a986c045ed4e4a498dc8fe0135f959f53d65279",
+      "size": 269574287
     }
   ],
   "is_critical": false,
