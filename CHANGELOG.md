@@ -6,15 +6,24 @@ ghi lại ở đây** để còn đối chiếu khi cần.
 
 | Bản | Ngày (UTC) | File cài đặt | Ghi chú |
 |---|---|---|---|
+| 0.0.38 | 2026-11-20 | còn | Quy hoạch module vào core/ auth/ gdt/ dvc/ services/ |
 | 0.0.37 | 2026-11-20 | còn | Quy hoạch mã nguồn (tests/ scripts/ docs/), dọn 528 MB bản cũ |
 | 0.0.36 | 2026-11-20 | còn | Chống zip-slip (backup + PDF từ ZIP), validate MST, ngày sai báo lỗi, chỉ tin khoá Ed25519 nhúng trong code |
-| 0.0.35 | 2026-11-19 | còn | Hướng dẫn sử dụng viết lại đầy đủ, trình bày HTML |
+| 0.0.35 | 2026-11-19 | đã xoá (chỉ giữ log) | Hướng dẫn sử dụng viết lại đầy đủ, trình bày HTML |
 | 0.0.34 | 2026-11-19 | đã xoá (chỉ giữ log) | Lưu kết quả tra cứu tờ khai vào DB; bỏ tooltip vô nghĩa |
 | 0.0.33 | 2026-11-19 | đã xoá (chỉ giữ log) | 401 ở nhánh máy tính tiền = mã captcha sai; tự đăng nhập lại giữa lượt |
 | 0.0.32 | 2026-11-19 | đã xoá (chỉ giữ log) | PDF không báo thành công khi thiếu chữ; bỏ font Helvetica |
 | 0.0.31 | 2026-11-19 | đã xoá (chỉ giữ log) | Schema v2: khoá chống trùng thêm người mua, tự nâng cấp có sao lưu |
 
 ## Chi tiết
+
+### 0.0.38 — 20/11/2026
+- Quy hoạch mã nguồn theo miền: 36 module vào `core/`, `auth/`, `gdt/`, `dvc/`,
+  `services/`; điểm vào `app.py`, `build.py`, `updater.py` giữ ở gốc.
+- Sửa toàn bộ import (~280 dòng) và 6 test dùng tên module cũ; `captcha.py` tính
+  lại đường dẫn `fixtures/` theo gốc repo.
+- Không thay đổi chức năng. Đã kiểm: 312 test, ruff, security scan strict,
+  và chạy thử bản đóng gói 10 giây (app khởi động bình thường).
 
 ### 0.0.37 — 20/11/2026
 - Quy hoạch lại mã nguồn để tiếp tục phát triển: `tests/` (52 file test),
